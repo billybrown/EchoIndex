@@ -82,7 +82,8 @@ module.exports = function(grunt) {
         //'sprites',
         'copy:icomoon_fonts',
         'plugins',
-        'images'
+        'images',
+        'twigRender'
     ]);
 };
 
