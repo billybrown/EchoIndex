@@ -1,0 +1,13 @@
+<section class="Component Component--{{component.class}}">
+    <div class="Component__info">
+        <h2 class="Component__title">{{ component.title }}</h2><!-- /.Component__title -->
+        <p class="Component__description">{{ component.description }}</p><!-- /.Component__description -->
+    </div><!-- /.Component__name -->
+    <div class="Component__examples">
+        <ul>
+            {% for example in component.examples %}
+                <li><img src="{{example.src}}" alt="example"/></li>
+            {% endfor %}
+        </ul>
+    </div><!-- /.Component__examples -->
+</section><!-- /.Component -->

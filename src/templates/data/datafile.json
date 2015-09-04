@@ -1,0 +1,67 @@
+{
+    "components" : [
+        {
+            "title": "Card",
+            "class": "vertical",
+            "description": "This is a grouping of text and an image that looks like a card. The image goes to the edge of the container and the text is wrapped in a closed box with a background color.",
+            "examples": [
+                { "src": "img/card1.png" }, 
+                { "src": "img/card2.png" }, 
+                { "src": "img/card3.png" },
+                { "src": "img/card4.png" }, 
+                { "src": "img/card5.png" }, 
+                { "src": "img/card6.png" }
+            ]
+        },
+        {
+            "title": "Slat",
+            "description": "This is a grouping of text and image(optional) that looks like a slat (a horizontal material sometimes used in architecture/building). It is borderless and the image often is hidden on small screens. ",
+            "examples": [
+                { "src": "img/slat1.png" }, 
+                { "src": "img/slat2.png" }, 
+                { "src": "img/slat3.png" }
+            ]
+        },
+        {
+            "title": "ScreenLink",
+            "class": "vertical",
+            "description": "This is a grouping of text and images where the text overlays on top of the image. The size of the element is determined by the size of the image. The whole thing is a single link",
+            "examples": [
+                { "src": "img/screenlink1.png" },
+                { "src": "img/screenlink2.png" },
+                { "src": "img/screenlink3.png" },
+                { "src": "img/screenlink4.png" }
+            ]
+        },
+        {
+            "title": "Well",
+            "description": "This element is a basic container of content. It has a background and padding between the edge of the elemnt and the inner text. Anything could be inside here including lists, etc.",
+            "examples": [
+                { "src": "img/well1.png" }
+            ]
+        },
+        {
+            "title": "ListBox",
+            "description": "ListBoxes typically hold a list or grid of other CSS objects. They often have a header and a footer.",
+            "examples": [
+                { "src": "img/listbox1.png" }, 
+                { "src": "img/listbox2.png" }, 
+                { "src": "img/listbox3.png" },
+                { "src": "img/listbox4.png" }, 
+                { "src": "img/listbox5.png" }
+            ]
+        },
+        {
+            "title": "SmallListBox",
+            "class": "vertical",
+            "description": "Basically the same purpose as ListBox, except this one is very small. Typically appears inside of sidebars, and its' list is typically stacked.",
+            "examples": [
+                { "src": "img/smalllistbox1.png" },
+                { "src": "img/smalllistbox2.png" },
+                { "src": "img/smalllistbox3.png" },
+                { "src": "img/smalllistbox4.png" },
+                { "src": "img/smalllistbox5.png" }
+            ]
+        }
+    ]
+}

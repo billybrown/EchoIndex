@@ -1,0 +1,43 @@
+/////////////////////////////////////-+++-/////////////////////////////////////////
+// Header
+// this is the main site header
+/////////////////////////////////////-+++-/////////////////////////////////////////
+
+
+
+/////////////////////////////////////-+++-
+// Some global header variables
+
+
+$SiteHeader-bp: mobilemenu-bp;
+
+/////////////////////////////////////-+++-
+// import header partials
+
+
+
+/////////////////////////////////////-+++-
+// Major layout styles for the header. Individual styles for header elements are inside
+// the partials imported above
+
+
+.SiteHeader {
+    text-align: center;
+
+    h1 {
+        margin-bottom: 0;
+        color: $orange;
+
+        span {
+            color: $teal;
+        }
+    }
+}
+
+.TableOfContents {
+    margin-top: 50px;
+
+    li {
+        margin-bottom: 5px;
+    }
+}

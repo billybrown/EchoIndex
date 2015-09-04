@@ -1,0 +1,60 @@
+/////////////////////////////////////-+++-/////////////////////////////////////////
+// Component
+//
+// The one object of this site.
+//
+//
+/////////////////////////////////////-+++-/////////////////////////////////////////
+
+
+
+/////////////////////////////////////-+++-
+// Variables
+
+
+
+
+/////////////////////////////////////-+++-
+// Default styles
+
+.Component {
+    @include u-equalColRow--gutter(800px, 80px);
+
+    &__examples {
+        border: 1px solid #eee;
+        padding: 40px;
+
+        ul {
+            @extend %u-nolist;
+
+            li {
+
+                img {
+                    border: 1px solid #fff;
+                }
+
+                &:not(:last-child) {
+                    margin-bottom: 10px;
+                }
+
+                &:hover {
+
+                    img {
+                        border: 1px solid $orange;
+                    }
+                }
+            }
+        }
+    }
+
+    &--vertical {
+        .Component__examples ul {
+            @include u-multiRowGrid--gutter(800px, 10px, 33.3333%);
+        }
+    }
+}
+
+.ComponentList {
+    @extend %u-nolist;
+}
+
