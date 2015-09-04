@@ -1,6 +1,6 @@
 # Welcome to EchoIndex
 
-EchoIndex is annindex of reusable CSS components and design patterns.
+EchoIndex is an index of reusable CSS components and design patterns.
 
 
 ## To do
