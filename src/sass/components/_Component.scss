@@ -24,35 +24,48 @@
         border: 1px solid #eee;
         padding: 40px;
 
-        ul {
-            @extend %u-nolist;
+        // ul {
+        //     @extend %u-nolist;
 
-            li {
+        //     li {
 
-                img {
-                    border: 1px solid #fff;
-                }
+        //         img {
+        //             border: 1px solid #fff;
+        //         }
 
-                &:not(:last-child) {
-                    margin-bottom: 10px;
-                }
+        //         &:not(:last-child) {
+        //             margin-bottom: 10px;
+        //         }
 
-                &:hover {
+        //         &:hover {
 
-                    img {
-                        border: 1px solid $orange;
-                    }
-                }
-            }
-        }
+        //             img {
+        //                 border: 1px solid $orange;
+        //             }
+        //         }
+        //     }
+        // }
     }
 
     &--vertical {
         .Component__examples ul {
-            @include u-multiRowGrid--gutter(800px, 10px, 33.3333%);
+            //@include u-multiRowGrid--gutter(800px, 10px, 33.3333%);
+        }
+
+        img {
+            max-height: 500px;
         }
     }
 }
+
+// .Examples {
+//     height: 500px;
+// }
+
+// .gallery img {
+//   display: block;
+//   height: 200px;
+// }
 
 .ComponentList {
     @extend %u-nolist;

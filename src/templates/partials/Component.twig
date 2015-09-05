@@ -4,10 +4,10 @@
         <p class="Component__description">{{ component.description }}</p><!-- /.Component__description -->
     </div><!-- /.Component__name -->
     <div class="Component__examples">
-        <ul>
+        <div class="gallery js-flickity" data-flickity-options='{ "imagesLoaded": true }'>
             {% for example in component.examples %}
-                <li><img src="{{example.src}}" alt="example"/></li>
+                <img src="{{example.src}}" alt="example"/>
             {% endfor %}
-        </ul>
+        </div>
     </div><!-- /.Component__examples -->
 </section><!-- /.Component -->

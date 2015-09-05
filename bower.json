@@ -2,7 +2,7 @@
   "name": "package",
   "version": "0.0.0",
   "dependencies": {
-    "fitvids": "~1.1.0"
+    "fitvids": "~1.1.0",
+    "flickity": "~1.1.1"
   }
 }
-

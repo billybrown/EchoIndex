@@ -10,10 +10,16 @@ jQuery( document ).ready( function( $ ) {
 	// this makes all videos responsive inside the main content area
 	$(".SiteMain").fitVids();
 
-	// this makes all select elements with this wrapping class have the chosen style
-	// 	$(".u-select select").chosen();
 
 
+$('.Examples').flickity({
+  // options
+  // wrapAround: false,
+  // freeScroll: false,
+  // cellSelector: '.ExamplesCell',
+  // setGallerySize: false,
+  // percentPosition: false
+ });
 
 	/////////////////////////////////////-+++-
 	// custom functions
@@ -24,22 +30,6 @@ jQuery( document ).ready( function( $ ) {
 			$(receiver).toggleClass(classer);
 		});
 	};
-
-	// equalizeHeights: function() {
-	// 	// using enquire to only trigger match height at a certain breakpoint
-	//  enquire.register("screen and (min-width:940px)", {
-	//		match : function() {
-	//			$('.CardColorGrid .Card').matchHeight();
-	//               }, unmatch : function() {
-	//                   $('.CardColorGrid .Card').matchHeight('remove');
-	//               }
-	//           }, true);
-	//       }
-	//	}
-
-
-	/////////////////////////////////////-+++-
-	// call those custom functions
 
 	classTrigger('#MobileMenu__close, #MobileMenu__open', 'html', 'active-MobileMenu');
 

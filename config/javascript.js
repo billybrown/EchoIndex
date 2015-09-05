@@ -30,6 +30,7 @@ module.exports.tasks = {
                 'modernizr'
             ],
             mainFiles: {
+                'flickity': ['dist/flickity.min.css', 'dist/flickity.pkgd.min.js'],
                 //'matchmedia': ['./matchMedia.js', './matchMedia.addListener.js'],
                 //'chosen': ['chosen.min.css', 'chosen.jquery.min.js']
             },
