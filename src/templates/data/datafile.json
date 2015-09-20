@@ -63,5 +63,127 @@
                 { "src": "img/smalllistbox5.png" }
             ]
         }
+    ],
+    "elements" : [
+        {
+            "title": "Pagination",
+            "description": "Pagination is the menu for navigating a document that has been divided into discrete pages.",
+            "examples": [
+                { "src": "img/pagination1.png" },
+                { "src": "img/pagination2.png" }
+            ]
+        },
+        {
+            "title": "Breadcrumbs",
+            "description": "Breadcrumbs provide links back to each previous page the user navigated through to get to the current page or—in hierarchical site structures—the parent pages of the current one. Breadcrumbs provide a trail for the user to follow back to the starting or entry point.",
+            "examples": [
+                { "src": "img/breadcrumbs1.png" },
+                { "src": "img/breadcrumbs2.png" }
+            ]
+        },
+        {
+            "title": "CaptionImage",
+            "description": "An image with an optional caption and credit. This layout is often used when images are added via a WYSIWYG.",
+            "examples": [
+                { "src": "img/captionimage1.png" }
+            ]
+        },
+        {
+            "title": "HeaderNewsletter",
+            "description": "Newsletter signup form in the header area.",
+            "examples": [
+                { "src": "img/headernewsletter1.png" }
+            ]
+        },
+        {
+            "title": "HeaderSearch",
+            "description": "Search form in the header area.",
+            "examples": [
+                { "src": "img/headersearch1.png" },
+                { "src": "img/headersearch2.png" }
+            ]
+        },
+        {
+            "title": "MobileMenu",
+            "description": "Open and close mobile menu button.",
+            "examples": [
+                { "src": "img/mobilemenu1.png" },
+                { "src": "img/mobilemenu2.png" }
+            ]
+        },
+        {
+            "title": "PrimaryMenu",
+            "description": "Primary global navigation of the site.",
+            "examples": [
+                { "src": "img/primarymenu1.png" },
+                { "src": "img/primarymenu2.png" },
+                { "src": "img/primarymenu3.png" }
+            ]
+        },
+        {
+            "title": "SecondaryMenu",
+            "description": "Secondary global navigation of the site.",
+            "examples": [
+                { "src": "img/secondarymenu1.png" }
+            ]
+        },
+        {
+            "title": "SiteLogo",
+            "description": "Main website logo.",
+            "examples": [
+                { "src": "img/sitelogo1.png" },
+                { "src": "img/sitelogo2.png" },
+                { "src": "img/sitelogo3.png" }
+            ]
+        },
+        {
+            "title": "HeaderSocial",
+            "description": "Social links in the header area.",
+            "examples": [
+                { "src": "img/headersocial1.png" },
+                { "src": "img/headersocial2.png" }
+            ]
+        }
+    ],
+    "utilities" : [
+        {
+            "title": "borderlist",
+            "description": "A list with a border in between the elements.",
+            "examples": [
+                { "src": "img/borderlist1.png" }
+            ]
+        },
+        {
+            "title": "brandlist",
+            "class": "vertical",
+            "description": "A list with a special style specific to the brand (usually colored bullets).",
+            "examples": [
+                { "src": "img/brandlist1.png" }
+            ]
+        },        
+        {
+            "title": "commalist",
+            "description": "An inline list seperated by a comma.",
+            "examples": [
+                { "src": "img/commalist1.png" }
+            ]
+        },
+        {
+            "title": "pipelist",
+            "description": "An inline list seperated by a vertical line.",
+            "examples": [
+                { "src": "img/pipelist1.png" },
+                { "src": "img/pipelist2.png" },
+                { "src": "img/pipelist3.png" }
+            ]
+        },
+        {
+            "title": "nub",
+            "description": "A small visual element to highlight something. Usually a tiny rectangle.",
+            "examples": [
+                { "src": "img/nub1.jpg" },
+                { "src": "img/nub2.jpg" }
+            ]
+        }
     ]
 }
